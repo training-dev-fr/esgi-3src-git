@@ -8,7 +8,7 @@ if (-Not (Test-Path -Path $Path)) {
     exit 1
 }
 
-$tempFolder = Join-Path $Path "tmp"
+$tempFolder = Join-Path $Path "tmp-" (Get-Date --format "yyyy-MM-dd")
 if (-Not (Test-Path -Path $tempFolder)) {
     New-Item -ItemType Directory -Path $tempFolder | Out-Null
 }
