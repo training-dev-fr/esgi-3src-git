@@ -10,6 +10,6 @@ jobs:
     name: Shellcheck
     runs-on: ubuntu-latest
     steps:
-      - uses: actions@checkout@v4
+      - uses: actions/checkout@v4
       - name: Run Shellcheck
-        uses: check-spelling/check-spelling@main
+        uses: ludeeus/action-shellcheck@v2
