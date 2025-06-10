@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions@checkout@v4
       - name: Run Shellcheck
-        uses: check-spelling/check-spelling@v0.0.22
+        uses: check-spelling/check-spelling@main
