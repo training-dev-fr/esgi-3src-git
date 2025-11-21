@@ -1,2 +1,2 @@
-#! /bin/bash
-echo "Hello world !!" !!!aze
+#! /b
+echo "Hello world !!
